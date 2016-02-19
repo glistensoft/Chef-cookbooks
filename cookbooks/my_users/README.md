@@ -73,6 +73,8 @@ Databags: Databags are variables that is stored as  JSON and is accessible from 
 
 $ knife data_bag create users
 
+Data bags will bbe available at location "chef-repo/data_bags/data_bag_name/"
+
 $ cd data_bags/users
 
 Create databag files for users
@@ -85,6 +87,20 @@ data_bags/
     &#9500;&#9472;&#9472; leia.json
     &#9492;&#9472;&#9472; vader.json
 1 directory, 4 files
+
+We have to specify the  SSH Keys, user home directory & all the relevant info within JSON file. For eg. han.json will contain details e.g.
+
+{
+  "id"       : "han",
+  "supports" : "manage_home => true",
+  "comment"  : "Han - The Sysadmin",
+  "home"     : "/home/han",
+  "shell"    : "/bin/bash",
+  "groups"   : ["sysadmin"],
+  "ssh_keys" : [
+  "ssh-rsa AAAAB....7GF chef-test"]
+}
+
 
 
 Upload the data_bag files to Chef server
