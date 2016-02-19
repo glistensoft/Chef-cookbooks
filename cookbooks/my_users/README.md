@@ -68,7 +68,8 @@ $ knife cookbook site install sudo
 
 $ knife cookbook upload -a
 
-To create databags
+##To create databags
+Databags: Databags are variables that is stored as  JSON and is accessible from chef-server. We can create databags manually or using knife. But as long as the structure is maintaned, you can use databags in either way. 
 
 $ knife data_bag create users
 
