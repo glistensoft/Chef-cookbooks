@@ -1,0 +1,11 @@
+{
+  "id"       : "vader",
+  "supports" : "manage_home => true",
+  "comment"  : "Vader - The Sysadmin",
+  "home"     : "/home/vader",
+  "groups"   : ["sysadmin"],
+  "shell"    : "/bin/bash",
+  "ssh_keys" : [
+    "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCOvgubcBFDN8oEFMEvnVzreDmxx4PRMLkLspsK5Vcc+Pf1EjxBzps9jR2DcvN1cmrkz5rR1+W/XCBadrh9Gj77MB1iozMOw8ZCnj3a+sIdpj3cnFSpLHn1O73aJHqfmvu4EVh1dBnNeUBIw1Lclc+OV62ihBMdsnGbrA+bzRVDVZ6hfw5SBpyxCVqER10SzQlj7V1dk7eWUEc9f8TrpziwyxYnJsPUiYqVbCjsly+lm1lMFrWJmtFmKIttdY1Yrc9y7wyAxQCADYomtGZRZ6mczul83Cv4qCzAb5sJvbUlM5YP3/I9e4TuRuyJ3pWdyfk1wZ8EGETiR/N0ieBRb7GF chef-client-test"
+  ]
+}

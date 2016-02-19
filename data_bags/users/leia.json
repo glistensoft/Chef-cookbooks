@@ -1,0 +1,5 @@
+{
+  "id"       : "leia",
+  "groups"   : ["dev"],
+  "action"   : ["remove","create"]
+}
